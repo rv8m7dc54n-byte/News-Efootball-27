@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="موقع مستقل لأخبار وشروحات وتحديثات eFootball 2026 باللغة العربية.">
+  <meta name="theme-color" content="#07111f">
+  <title>eFootball بالعربي | أخبار وتحديثات</title>
+  <style>
+    :root{--bg:#07111f;--panel:#101d30;--panel2:#14243a;--text:#f4f7fb;--muted:#a9b7ca;--accent:#52d6ff;--line:#26364b}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.7}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+    header{border-bottom:1px solid var(--line);background:#081321}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px 0;flex-wrap:wrap}
+    .brand{font-weight:900;font-size:1.25rem;letter-spacing:.2px}.brand span{color:var(--accent)}
+    nav{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:.95rem}nav a:hover{color:var(--accent)}
+    .hero{padding:28px 0 22px}
+    .hero-box{border:1px solid var(--line);border-radius:22px;overflow:hidden;background:linear-gradient(130deg,#122b48,#101a2b 65%,#16384a);padding:clamp(22px,5vw,48px)}
+    .tag{display:inline-block;background:#173a50;color:var(--accent);border:1px solid #24556d;border-radius:999px;padding:4px 11px;font-size:.82rem;font-weight:700}
+    h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.2;margin:15px 0 12px;max-width:780px}
+    .hero p{color:#d1dce9;max-width:700px;margin:0 0 18px}
+    .notice{font-size:.85rem;color:var(--muted);border-right:3px solid var(--accent);padding-right:10px}
+    .section-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:28px 0 14px}
+    h2{font-size:1.35rem;margin:0}.section-head small{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .card{border:1px solid var(--line);background:var(--panel);border-radius:16px;overflow:hidden;transition:transform .18s,border-color .18s}
+    .card:hover{transform:translateY(-3px);border-color:#3a7189}
+    .thumb{height:175px;display:grid;place-items:center;background:linear-gradient(140deg,#153451,#1a5866);font-size:3.2rem}
+    .thumb.alt{background:linear-gradient(140deg,#352449,#173c57)}.thumb.green{background:linear-gradient(140deg,#163d36,#183c5b)}
+    .content{padding:16px}.category{color:var(--accent);font-size:.8rem;font-weight:800}
+    .content h3{font-size:1.12rem;line-height:1.45;margin:7px 0}
+    .content p{font-size:.93rem;color:var(--muted);margin:0 0 12px}
+    .meta{color:#8fa0b7;font-size:.8rem}
+    .searchrow{display:flex;gap:10px;margin:14px 0}
+    input{width:100%;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font:inherit}
+    .info{margin:28px 0;background:var(--panel);border:1px solid var(--line);padding:20px;border-radius:16px}
+    .info p{color:var(--muted);margin-bottom:0}
+    footer{margin-top:36px;border-top:1px solid var(--line);padding:24px 0 34px;color:var(--muted);font-size:.9rem}
+    .footlinks{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}
+    @media(max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.thumb{height:145px}}
+    @media(max-width:500px){.grid{grid-template-columns:1fr}.thumb{height:180px}.top{align-items:flex-start}nav{gap:10px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap top">
+    <a class="brand" href="#"><span>eFootball</span> بالعربي</a>
+    <nav aria-label="التنقل الرئيسي">
+      <a href="#latest">آخر الأخبار</a>
+      <a href="#updates">التحديثات</a>
+      <a href="#guides">الشروحات</a>
+      <a href="#about">من نحن</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-box">
+      <span class="tag">موقع مستقل لعشاق اللعبة</span>
+      <h1>كل جديد eFootball 2026 في مكان واحد</h1>
+      <p>تابع الأخبار، التحديثات، الفعاليات والشروحات باللغة العربية. تحقّق دائمًا من المصدر الرسمي قبل الاعتماد على أي خبر.</p>
+      <div class="notice">تنبيه: هذا موقع مستقل وغير تابع رسميًا لشركة KONAMI. الأخبار التجريبية أدناه أمثلة لتوضيح التصميم وليست أخبارًا حقيقية.</div>
+    </div>
+  </section>
+
+  <section id="latest">
+    <div class="section-head"><h2>آخر المنشورات</h2><small>بدّل الأمثلة بمقالاتك الحقيقية</small></div>
+    <div class="searchrow"><input id="search" type="search" placeholder="ابحث في العناوين..." aria-label="ابحث في المقالات"></div>
+    <div class="grid" id="posts">
+      <article class="card" data-search="كيف تتحقق من أخبار التحديث">
+        <div class="thumb">📰</div><div class="content">
+          <div class="category">أخبار اللعبة</div><h3>كيف تتحقق من أخبار تحديث eFootball؟</h3>
+          <p>راجع قنوات اللعبة الرسمية وقارن المعلومات قبل مشاركة أي خبر.</p>
+          <div class="meta">مقال إرشادي • عدّل النص قبل النشر</div>
+        </div>
+      </article>
+      <article class="card" data-search="الفعاليات والمكافآت">
+        <div class="thumb alt">🏆</div><div class="content">
+          <div class="category">الفعاليات</div><h3>دليل متابعة الفعاليات والمكافآت</h3>
+          <p>اكتب هنا شرحًا من إعدادك عن طريقة متابعة الفعاليات داخل اللعبة.</p>
+          <div class="meta">دليل • مثال تجريبي</div>
+        </div>
+      </article>
+      <article class="card" data-search="نصائح للمبتدئين">
+        <div class="thumb green">⚽</div><div class="content">
+          <div class="category">شروحات</div><h3>نصائح للمبتدئين في eFootball</h3>
+          <p>شارك نصائحك وتجربتك الأصلية لمساعدة اللاعبين الجدد.</p>
+          <div class="meta">نصائح • مثال تجريبي</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="updates" class="info">
+    <h2>التحديثات والتسريبات</h2>
+    <p>عند نشر معلومة غير مؤكدة، اكتب بوضوح أنها غير رسمية، واذكر المصدر وتاريخ الاطلاع. لا تقدّم الإشاعات على أنها أخبار مؤكدة.</p>
+  </section>
+  <section id="guides" class="info">
+    <h2>الشروحات</h2>
+    <p>أضف شروحات مكتوبة بأسلوبك، مثل شرح إعدادات اللعب أو توضيح فعاليات اللعبة. استعمل صورًا تملك حق استخدامها أو صورًا مرخّصة.</p>
+  </section>
+  <section id="about" class="info">
+    <h2>من نحن</h2>
+    <p>eFootball بالعربي موقع مستقل يهدف إلى نشر أخبار وشروحات عربية عن اللعبة. لا يمثّل هذا الموقع KONAMI ولا يدّعي أنه موقع رسمي.</p>
+  </section>
+</main>
+<footer><div class="wrap">
+  <div class="footlinks"><a href="#about">من نحن</a><a href="mailto:contact@example.com">اتصل بنا (بدّل البريد)</a><a href="#privacy">الخصوصية</a></div>
+  <div id="privacy">احترم حقوق النشر وخصوصية الزوار. قبل تشغيل الإعلانات، أضف سياسة خصوصية حقيقية ومعلومات تواصل صحيحة.</div>
+  <p>© <span id="year"></span> eFootball بالعربي — موقع مستقل من صنع المعجبين.</p>
+</div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('search').addEventListener('input', function(){
+    const q = this.value.trim().toLowerCase();
+    document.querySelectorAll('#posts .card').forEach(card => {
+      card.style.display = card.dataset.search.toLowerCase().includes(q) || card.innerText.toLowerCase().includes(q) ? '' : 'none';
+    });
+  });
+</script>
+</body>
+</html>
